@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7fc;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*Header*/
+header {
+    display: flex; /* Use flexbox to create a flex container */
+    align-items: center; /* Align items vertically in the center */
+    padding: 70px;
+    background: radial-gradient(circle at top left, #0a5f8d, #000080); /* Sapphire blue to navy blue */
+    color: white;
+}
+
+.flex-container1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.flex-container2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+}
+
+
+
+.content, .button {
+    margin-right: -600px; /* Add spacing between items */
+}
+
+h2 {
+    font-size: 53px;
+    margin: 0; /* Remove default margin */
+}
+
+.myButton {
+    background: radial-gradient(circle, #0077B6, #023E8A); /* radial gradient background */
+    color: white; /* white text color */
+    padding: 10px 20px; /* some padding */
+    text-align: center; /* center align the text */
+    text-decoration: none; /* remove underline */
+   align-items: end; /* display the button as a block element */
+    font-size: 20px; /* set the font size */
+    border: 2px solid white; /* small white border */
+    border-radius: 25px; /* for capsule shape */
+    cursor: pointer;
+    outline: none; /* removes the default button outline */
+    transition: background-color 0.3s;
+  }
+  .myButton:hover {
+    background: radial-gradient(circle, #5fc7ff, #012F63); /* lighter gradient */
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px; /* Adjust as needed */
+}
+  
+
+
+@font-face {
+    font-family: 'Arial';
+    src: url('arial.woff2') format('woff2'),
+         url('tahoma.woff') format('woff');
+    /* Add additional font formats if available */
+}
+
+.custom-font {
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Use "Auge" font with fallback to sans-serif */
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*List button*/
+.list-button-container {
+    display: flex; 
+    padding: 10px 10px; 
+    margin-left: 80px;
+  }
+
+  /* Styling for the buttons */
+  .list-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px; 
+    margin-right: 15px; 
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: bold; 
+    color: rgb(255, 255, 255); 
+    background: linear-gradient(to right, #007bff, #00bfff); 
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s; 
+    border-radius: 20px;
+  }
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
+  }
+
+  /* Styling for button hover state */
+  .list-button:hover {
+    color: white;
+    background: linear-gradient(to right, #3e9cff, #b3ecff); 
+  }
+  .separator {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Partially visible separator */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  /*--------------------------------------------------------------------------------------------------------------------------------*/
+ /* Styling for the section */
+ .content-section {
+    text-align: center; /* Center align content */
+    padding: 70px 50px; /* Adjust padding as needed */
+  }
+
+  /* Styling for the h2 heading */
+  .section-heading {
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 50px; /* Adjust font size as needed */
+    padding-right: 55%;
+}
+
+  /* Styling for the paragraph */
+  .section-paragraph {
+    font-family: Arial, sans-serif; /* Font style */
+    font-size:20px; /* Adjust font size as needed */
+    line-height: 1.6;
+    text-align: left;
+    margin: 50px 120px; 
+  }
+  

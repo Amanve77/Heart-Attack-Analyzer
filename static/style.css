@@ -1,0 +1,173 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+header {
+  display: flex; /* Use flexbox to create a flex container */
+  align-items: center; /* Align items vertically in the center */
+  padding: 70px;
+  background: radial-gradient(circle at top left, #0a5f8d, #000080); /* Sapphire blue to navy blue */
+  color: white;
+}
+
+.flex-container1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.flex-container2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+}
+.myButton {
+  background: radial-gradient(circle, #0077B6, #023E8A); /* radial gradient background */
+  color: white; /* white text color */
+  padding: 10px 20px; /* some padding */
+  text-align: center; /* center align the text */
+  text-decoration: none; /* remove underline */
+ align-items: end; /* display the button as a block element */
+  font-size: 20px; /* set the font size */
+  border: 2px solid white; /* small white border */
+  border-radius: 25px; /* for capsule shape */
+  cursor: pointer;
+  outline: none; /* removes the default button outline */
+  transition: background-color 0.3s;
+}
+.myButton:hover {
+  background: radial-gradient(circle, #5fc7ff, #012F63); /* lighter gradient */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px; /* Adjust as needed */
+}
+/* Container Styles */
+
+
+.inner-box {
+  display: flex;
+  justify-content: center;
+
+  width: 900px;
+  padding: 20px 40px;
+  /*background: linear-gradient(to top left, #ffffffff, #ffffff33);*/
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #2773a5;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Add margin between heading and form */
+}
+
+/* Heading Styles */
+h2 {
+  font-size: 53px;
+  margin: 0; /* Remove default margin */
+  color: white;
+}
+.title{
+  font-size: 30px;
+  line-height: 1.6;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+p{
+  font-size: 25px;
+  line-height: 1.6;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Form Styles */
+form {
+  margin-top: 20px;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+  font-size: 20px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Default button color */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+input[type="submit"] {
+  background-color: #0077b6; /* Nice blue shade */
+}
+
+input[type="submit"]:hover {
+  background-color: #005f89; /* Darker shade on hover */
+}
+
+/* Optional: Styling for error messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Two-column Layout */
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group .form-column {
+  flex: 0 0 50%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .form-group .form-column {
+    flex: 0 0 100%;
+    padding: 0;
+  }
+}
