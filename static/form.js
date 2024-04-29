@@ -5,7 +5,7 @@ function calculateRisk() {
         cp: parseInt(document.forms['calculator']['cp'].value),
         trtbps: parseInt(document.forms['calculator']['trtbps'].value),
         chol: parseInt(document.forms['calculator']['chol'].value),
-        fbs: document.forms['calculator']['fbs'].checked ? 1 : 0,
+        fbs: parseInt(document.forms['calculator']['fbs'].value),
         restecg: parseInt(document.forms['calculator']['restecg'].value),
         thalachh: parseInt(document.forms['calculator']['thalachh'].value),
         oldpeak: parseFloat(document.forms['calculator']['oldpeak'].value),

@@ -38,7 +38,7 @@
                 <input type='radio' name='sex' value='0'>Female
               </div>
               <div class="mb-3">
-                <label for="InputCholesterol" class="form-label">Cholesterol</label>
+                <label for="InputCholesterol" class="form-label">Cholesterol(mg/dl)</label>
                 <input type='text' name='chol' size=7 value='' id='chol'>
               </div>
               <div class="mb-3">
@@ -78,11 +78,14 @@
                 </select>
               </div>
               <div class="mb-3">
-                <label for="InputFastingBloodSugar" class="form-label">Fasting Blood Sugar</label>
-                <input type='text' name='fbs' size=7 value='' id='fbs'>
+                <label for="InputFastingBloodSugar" class="form-label">Fasting Blood Sugar > 120mg/dl</label>
+                <select name="fbs">
+                  <option value='0' selected>No</option>
+                  <option value='1'>True</option>
+                </select>
               </div>
               <div class="mb-3">
-                <label for="InputRestingBP" class="form-label">Resting Blood Pressure</label>
+                <label for="InputRestingBP" class="form-label">Resting Blood Pressure(mm Hg)</label>
                 <input type='text' name='trtbps' size=7 value='' id='trtbps'>
               </div>
               <div class="mb-3">
@@ -94,7 +97,7 @@
                 <INPUT type='text' name='slp' size=7 value='' id='slp'>
               </div>
               <div class="mb-3">
-                <label for="InputThaliumStressTest" class="form-label">Thalium Stress Test</label>
+                <label for="InputThaliumStressTest" class="form-label">Thalium Stress Test(0-3)</label>
                 <INPUT type='text' name='thall' size=7 value='' id='thalacl'>
               </div>
               <!-- Add more form components for right column here -->
