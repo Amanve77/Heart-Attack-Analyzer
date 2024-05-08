@@ -45,7 +45,7 @@ def predict():
         # Get the probability of having a heart attack
         probability_of_heart_attack = prediction_probabilities[1] * 100
 
-        return render_template('index.html', prediction_text='Probability of having a Heart Attack is: {:.2f}%'.format(probability_of_heart_attack))
+        return render_template('index.html', prediction_text='Chances of having a Heart Attack is: {:.2f}%'.format(probability_of_heart_attack))
     
     except Exception as e:
         # Return error response if any exception occurs
