@@ -1,4 +1,4 @@
-#Academic ERP System
+# Academic ERP System
 The Academic ERP System is a web-based application designed to manage employee records efficiently within an academic institution. This project focuses on CRUD (Create, Read, Update, Delete) operations for employee management, ensuring a clean and scalable architecture.
 
 Features
